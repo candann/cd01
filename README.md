@@ -1,39 +1,39 @@
-1 import turtle as t
+ import turtle as t
 
-2
 
-3 t.penup()
 
-4 t.seth(-90)
+ t.penup()
 
-5 t.fd(160)
+ t.seth(-90)
 
-6 t.pendown()
+ t.fd(160)
 
-7 t.pensize(20)
+ t.pendown()
 
-8 t.colormode(255)
+ t.pensize(20)
 
-9 for j in range(10):
+ t.colormode(255)
 
-10 t.speed(1000)
+ for j in range(10):
 
-11 t.pencolor(25*j,5*j,15*j)
+ t.speed(1000)
 
-12 t.seth(130)
+ t.pencolor(25*j,5*j,15*j)
 
-13 t.fd(220)
+ t.seth(130)
 
-14 for i in range(23):
+ t.fd(220)
 
-15 t.circle(-80,10)
+ for i in range(23):
 
-16 t.seth(100)
+ t.circle(-80,10)
 
-17 for i in range(23):
+ t.seth(100)
 
-18 t.circle(-80,10)
+ for i in range(23):
 
-19 t.fd(220)
+ t.circle(-80,10)
 
-20 t.done()
+ t.fd(220)
+
+ t.done()
