@@ -1,0 +1,48 @@
+import math
+
+def calculate_rectangle_area(length, width):
+    """
+    计算矩形的面积。
+    参数：
+    - length: 矩形的长度
+    - width: 矩形的宽度
+    返回值：
+    - 矩形的面积
+    """
+    return length * width
+
+def calculate_circle_area(radius):
+    """
+    计算圆形的面积。
+    参数：
+    - radius: 圆形的半径
+    返回值：
+    - 圆形的面积
+    """
+    return math.pi * radius ** 2
+
+def calculate_triangle_area(base, height):
+    """
+    计算三角形的面积。
+    参数：
+    - base: 三角形的底边长度
+    - height: 三角形的高度
+    返回值：
+    - 三角形的面积
+    """
+    return 0.5 * base * height
+
+# 测试示例
+length = 5
+width = 3
+rectangle_area = calculate_rectangle_area(length, width)
+print("矩形的面积为:", rectangle_area)
+
+radius = 4
+circle_area = calculate_circle_area(radius)
+print("圆形的面积为:", circle_area)
+
+base = 6
+height = 2
+triangle_area = calculate_triangle_area(base, height)
+print("三角形的面积为:", triangle_area)
